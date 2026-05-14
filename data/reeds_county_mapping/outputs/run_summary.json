@@ -1,0 +1,32 @@
+{
+  "solar_meta_rows_full": 405737,
+  "solar_meta_rows_wecc_only": 184776,
+  "solar_meta_unique_cpa_ids_full": 405737,
+  "solar_meta_unique_cpa_ids_wecc_only": 184776,
+  "cpa_polygon_rows": 406110,
+  "county_rows": 3235,
+  "primary_county_rows_wecc_only": 184863,
+  "missing_county_fips_share_wecc_only": 0.0,
+  "missing_county_name_share_wecc_only": 0.0,
+  "missing_county_share_wecc_only": 0.0,
+  "has_state_name": true,
+  "has_state_abbrev": true,
+  "has_longitude": true,
+  "has_latitude": true,
+  "county_assignment_method": "largest_overlap_area",
+  "filtered_states": [
+    "Arizona",
+    "California",
+    "Colorado",
+    "Idaho",
+    "Montana",
+    "Nevada",
+    "New Mexico",
+    "Oregon",
+    "South Dakota",
+    "Texas",
+    "Utah",
+    "Washington",
+    "Wyoming"
+  ]
+}
