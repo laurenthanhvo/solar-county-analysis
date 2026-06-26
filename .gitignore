@@ -1,0 +1,5 @@
+
+# County clustering experiment data
+clustering_county/inputs/melek_46regions/*.parquet
+clustering_county/outputs/*.parquet
+clustering_county/outputs/cluster_assignments/
