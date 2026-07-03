@@ -1,0 +1,26 @@
+
+Input file:
+/Users/laurenvo/Documents/Switch-USA-PG-ReEDS/pg/extra_inputs/resource_groups_wecc_county_solar_test/ReEDS-cpas-patched/solar_lcoe_ReEDS_pg_schema_with_county_group.csv
+
+Metric used:
+lcoe
+
+County-region allocation:
+groups = 739
+assigned_clusters_total = 1000
+groups_with_at_least_1 = 739
+groups_with_more_than_1 = 133
+max_assigned_clusters = 24
+
+County-only allocation:
+counties = 419
+assigned_clusters_total = 1000
+counties_with_at_least_1 = 419
+counties_with_more_than_1 = 230
+max_assigned_clusters = 63
+
+Notes:
+- County-region allocation matches the current PowerGenome WECC setup more directly.
+- County-only allocation matches Jenny's conceptual example more directly.
+- Both versions give each group/county 1 baseline cluster first, then distribute the remaining budget by LCOE standard deviation.
+- Assigned clusters are capped by the number of candidate solar rows available.

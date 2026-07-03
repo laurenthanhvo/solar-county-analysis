@@ -1,0 +1,10 @@
+input_file: /Users/laurenvo/Documents/Github/solar-county-analysis/clustering_county/outputs/solar_rows_missing_county.csv
+level: county_region
+total_pool_requested: 1000
+valid_groups: 0
+assigned_clusters_total: 0
+groups_with_at_least_1: 0
+groups_with_only_1: 0
+groups_with_more_than_1: 0
+max_assigned_clusters: nan
+metric_used: lcoe
