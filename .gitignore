@@ -3,3 +3,9 @@
 clustering_county/inputs/melek_46regions/*.parquet
 clustering_county/outputs/*.parquet
 clustering_county/outputs/cluster_assignments/
+
+# Switch / PowerGenome generated outputs
+switch/in/
+pg/settings_AQ_lauren_test/
+validation_outputs/
+*.log
