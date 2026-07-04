@@ -1,0 +1,87 @@
+file,line,text
+pg/settings/scenario_management.yml,182,--exclude-modules study_modules.min_capacity_constraint
+pg/settings/extra_inputs.yml,18,capacity_limit_spur_fn: resource_capacity_spur.csv # Max capacity and spur line distance for each renewable resource
+pg/settings/transmission.yml,147,"# (allows the minimum of the two possible values, % of existing vs. absolute MW)"
+pg/settings_wecc_county_solar_test/scenario_management.yml,182,--exclude-modules study_modules.min_capacity_constraint
+pg/settings_wecc_county_solar_test/extra_inputs.yml,18,capacity_limit_spur_fn: resource_capacity_spur.csv # Max capacity and spur line distance for each renewable resource
+pg/settings_wecc_county_solar_test/transmission.yml,181,"# (allows the minimum of the two possible values, % of existing vs. absolute MW)"
+pg/settings_wecc_county_test/scenario_management.yml,182,--exclude-modules study_modules.min_capacity_constraint
+pg/settings_wecc_county_test/extra_inputs.yml,18,capacity_limit_spur_fn: resource_capacity_spur.csv # Max capacity and spur line distance for each renewable resource
+pg/settings_wecc_county_test/transmission.yml,181,"# (allows the minimum of the two possible values, % of existing vs. absolute MW)"
+pg/settings_wecc_baseline_validated/scenario_management.yml,182,--exclude-modules study_modules.min_capacity_constraint
+pg/settings_wecc_baseline_validated/extra_inputs.yml,18,capacity_limit_spur_fn: resource_capacity_spur.csv # Max capacity and spur line distance for each renewable resource
+pg/settings_wecc_baseline_validated/transmission.yml,181,"# (allows the minimum of the two possible values, % of existing vs. absolute MW)"
+pg/settings_wecc_county_solar_5clusters/scenario_management.yml,182,--exclude-modules study_modules.min_capacity_constraint
+pg/settings_wecc_county_solar_5clusters/extra_inputs.yml,18,capacity_limit_spur_fn: resource_capacity_spur.csv # Max capacity and spur line distance for each renewable resource
+pg/settings_wecc_county_solar_5clusters/transmission.yml,181,"# (allows the minimum of the two possible values, % of existing vs. absolute MW)"
+PowerGenome/powergenome/external_data.py,111,`capacity_limit_spur_fn` (the file to load).
+PowerGenome/powergenome/external_data.py,131,"path = Path(settings[""input_folder""]) / settings[""capacity_limit_spur_fn""]"
+PowerGenome/powergenome/external_data.py,163,"f""{settings['capacity_limit_spur_fn']} matches multiple resources:"""
+PowerGenome/powergenome/financials.py,336,The base dollar year is lower than the minimum year available.
+PowerGenome/powergenome/nrelatb.py,1594,"""min_capacity"","
+PowerGenome/powergenome/nrelatb.py,1644,"""min_capacity"","
+PowerGenome/powergenome/nrelatb.py,1727,"if _scenario.get(""min_capacity""):"
+PowerGenome/powergenome/nrelatb.py,1730,"if capacity < _scenario[""min_capacity""]:"
+PowerGenome/powergenome/nrelatb.py,1734,"+ f"" less than minimum ({capacity} < {_scenario['min_capacity']} MW)"""
+PowerGenome/powergenome/generators.py,753,"'energy_source_code_2', 'minimum_load_mw', 'operational_status_code',"
+PowerGenome/powergenome/generators.py,782,"""minimum_load_mw"","
+PowerGenome/powergenome/generators.py,1376,"Grouped generators with the total capacity, minimum load, and average heat"
+PowerGenome/powergenome/generators.py,1390,"""minimum_load_mw"": ""sum"","
+PowerGenome/powergenome/generators.py,1406,"Calculate the total capacity, minimum load, weighted heat rate, and number of"
+PowerGenome/powergenome/generators.py,1434,"df[""Min_Power""] = df[""minimum_load_mw""] / df[capacity_col]"
+PowerGenome/powergenome/generators.py,1467,"""minimum_load_mw"": ""mean"","
+PowerGenome/powergenome/generators.py,1487,"df_values[""Min_Power""] = df_values[""minimum_load_mw""] / df_values[capacity_col]"
+PowerGenome/powergenome/generators.py,1961,"new_operating.loc[:, ""minimum_load_mw""] = ("
+PowerGenome/powergenome/generators.py,1968,"new_operating.loc[new_operating[""minimum_load_mw""].isnull(), ""minimum_load_mw""] = 0"
+PowerGenome/powergenome/generators.py,1999,"""minimum_load_mw"","
+PowerGenome/powergenome/generators.py,2059,"planned_gdf.loc[:, ""minimum_load_mw""] = ("
+PowerGenome/powergenome/generators.py,2066,"planned_gdf.loc[planned_gdf[""minimum_load_mw""].isnull(), ""minimum_load_mw""] = 0"
+PowerGenome/powergenome/generators.py,2096,"""minimum_load_mw"","
+PowerGenome/powergenome/generators.py,3187,"(capacity, minimum load, heat rate) and the number of units in the cluster."
+PowerGenome/powergenome/generators.py,3627,"""minimum_load_mw"","
+PowerGenome/powergenome/generators.py,3648,"# ""minimum_load_mw"","
+PowerGenome/powergenome/generators.py,3711,"""minimum_load_mw"","
+PowerGenome/powergenome/generators.py,3995,"if self.settings.get(""capacity_limit_spur_fn""):"
+PowerGenome/powergenome/generators.py,4038,Adjust 'Min_Power' by ensuring it is not greater than the minimum value
+PowerGenome/powergenome/generators.py,4042,# Vectorized function to extract the minimum value from arrays
+PowerGenome/powergenome/generators.py,4047,# Compute the minimum values from the 'profile' column
+PowerGenome/powergenome/GenX.py,189,"""MIN_CAP"": ""Resource_minimum_capacity_requirement.csv"","
+PowerGenome/powergenome/GenX.py,1050,Column in `resource_df` that stores the minimum generation power of each
+PowerGenome/powergenome/GenX.py,1056,A modified version of `resource_df`. Any rows with minimum power larger than
+PowerGenome/powergenome/GenX.py,1089,"""""""Create a dataframe of minimum capacity requirements for GenX"
+PowerGenome/powergenome/GenX.py,1103,A dataframe with minimum capacity constraints formatted for GenX. If `MinCapReq`
+PowerGenome/powergenome/GenX.py,1121,"f""The minimum capacity tag {cap_tag} is listed in the settings """
+PowerGenome/powergenome/GenX.py,1264,storage at peak discharge power output. Value minimum is 1.
+PowerGenome/powergenome/GenX.py,1872,"file_name=""Minimum_capacity_requirement.csv"","
+PowerGenome/powergenome/GenX.py,1993,"file_name=""Minimum_capacity_requirement.csv"","
+PowerGenome/powergenome/resource_clusters.py,540,"min_capacity: float = None,"
+PowerGenome/powergenome/resource_clusters.py,556,min_capacity
+PowerGenome/powergenome/resource_clusters.py,557,"Minimum total capacity (MW). Resources are selected,"
+PowerGenome/powergenome/resource_clusters.py,560,until the minimum capacity is just exceeded.
+PowerGenome/powergenome/resource_clusters.py,567,below this maximum. Takes precedence over `min_capacity`.
+PowerGenome/powergenome/resource_clusters.py,569,Multiplier applied to resource capacity before selection by `min_capacity`.
+PowerGenome/powergenome/resource_clusters.py,620,if min_capacity:
+PowerGenome/powergenome/resource_clusters.py,621,# Select resources until min_capacity reached
+PowerGenome/powergenome/resource_clusters.py,622,"temp = (df.loc[mask, CAPACITY].cumsum() < min_capacity).values"
+PowerGenome/powergenome/resource_clusters.py,698,">>> builder.get_clusters(ipm_regions=['B'], min_capacity=2,"
+PowerGenome/powergenome/resource_clusters.py,764,"min_capacity: float = None,"
+PowerGenome/powergenome/resource_clusters.py,784,min_capacity
+PowerGenome/powergenome/resource_clusters.py,808,"min_capacity=min_capacity,"
+PowerGenome/powergenome/cluster/renewables.py,96,"f""The minimum bin value in one of your renewables_clusters is """
+PowerGenome/powergenome/cluster/renewables.py,97,"f""{bins[0]}, which is greater than the minimum value of the data series. """
+PowerGenome/powergenome/cluster/renewables.py,314,def min_capacity_mw(
+PowerGenome/powergenome/cluster/renewables.py,321,"""You have selected a minimum capacity for one of the renewables_clusters """
+PowerGenome/powergenome/cluster/renewables.py,387,"min_capacity: int = None,"
+PowerGenome/powergenome/cluster/renewables.py,417,"min_capacity : int, optional"
+PowerGenome/powergenome/cluster/renewables.py,418,"A minimum amount of capacity to include, by default None. Can only be used if"
+PowerGenome/powergenome/cluster/renewables.py,420,and the least cost sites that satisfy the minimum capacity are retained.
+PowerGenome/powergenome/cluster/renewables.py,459,min_capacity: 10000
+PowerGenome/powergenome/cluster/renewables.py,493,if min_capacity:
+PowerGenome/powergenome/cluster/renewables.py,494,"data = min_capacity_mw(data, min_cap=min_capacity)"
+PowerGenome/powergenome/cluster/renewables.py,618,Either `mw_per_bin` or `mw_per_q` can be a key in the input dictionary. The
+PowerGenome/powergenome/cluster/renewables.py,628,"Must have either ""mw_per_bin"" or ""mw_per_q"" if the number of bins/quantiles"
+PowerGenome/powergenome/cluster/renewables.py,635,from available site capacity and `mw_per_bin`/`mw_per_q`
+PowerGenome/powergenome/cluster/renewables.py,637,"if ""mw_per_bin"" in b:"
+PowerGenome/powergenome/cluster/renewables.py,639,"logger.warning(""Overwriting 'bins' based on mw_per_bin"")"
+PowerGenome/powergenome/cluster/renewables.py,640,"b[""bins""] = max(int(data[""mw""].sum() / b[""mw_per_bin""]), 1)"
+PowerGenome/powergenome/cluster/renewables.py,641,"del b[""mw_per_bin""]"

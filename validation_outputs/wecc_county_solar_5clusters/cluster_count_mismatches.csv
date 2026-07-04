@@ -1,0 +1,3 @@
+model_region,county_group,candidate_rows,expected_clusters_n5,county_name,county_name_full,state_abbrev,actual_clusters,has_at_least_one,matches_expected_min_candidate_5,should_have_5,has_5_when_possible
+NM1,35045,5,5,San Juan County,"San Juan County, NM",NM,4,True,False,True,False
+NV1,06017,3,3,El Dorado County,"El Dorado County, CA",CA,2,True,False,False,True

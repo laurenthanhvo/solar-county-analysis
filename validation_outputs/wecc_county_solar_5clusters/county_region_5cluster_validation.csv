@@ -1,0 +1,740 @@
+model_region,county_group,candidate_rows,expected_clusters_n5,county_name,county_name_full,state_abbrev,actual_clusters,has_at_least_one,matches_expected_min_candidate_5,should_have_5,has_5_when_possible
+AZ1,04005,1214,5,Coconino County,"Coconino County, AZ",AZ,5,True,True,True,True
+AZ1,04012,377,5,La Paz County,"La Paz County, AZ",AZ,5,True,True,True,True
+AZ1,04013,51,5,Maricopa County,"Maricopa County, AZ",AZ,5,True,True,True,True
+AZ1,04015,981,5,Mohave County,"Mohave County, AZ",AZ,5,True,True,True,True
+AZ1,04025,497,5,Yavapai County,"Yavapai County, AZ",AZ,5,True,True,True,True
+AZ1,04027,147,5,Yuma County,"Yuma County, AZ",AZ,5,True,True,True,True
+AZ1,06025,316,5,Imperial County,"Imperial County, CA",CA,5,True,True,True,True
+AZ1,06065,135,5,Riverside County,"Riverside County, CA",CA,5,True,True,True,True
+AZ1,06071,78,5,San Bernardino County,"San Bernardino County, CA",CA,5,True,True,True,True
+AZ1,06073,11,5,San Diego County,"San Diego County, CA",CA,5,True,True,True,True
+AZ1,32003,14,5,Clark County,"Clark County, NV",NV,5,True,True,True,True
+AZ1,49037,2,2,San Juan County,"San Juan County, UT",UT,2,True,True,False,True
+AZ2,04001,82,5,Apache County,"Apache County, AZ",AZ,5,True,True,True,True
+AZ2,04003,17,5,Cochise County,"Cochise County, AZ",AZ,5,True,True,True,True
+AZ2,04005,225,5,Coconino County,"Coconino County, AZ",AZ,5,True,True,True,True
+AZ2,04007,304,5,Gila County,"Gila County, AZ",AZ,5,True,True,True,True
+AZ2,04009,266,5,Graham County,"Graham County, AZ",AZ,5,True,True,True,True
+AZ2,04012,27,5,La Paz County,"La Paz County, AZ",AZ,5,True,True,True,True
+AZ2,04013,730,5,Maricopa County,"Maricopa County, AZ",AZ,5,True,True,True,True
+AZ2,04017,89,5,Navajo County,"Navajo County, AZ",AZ,5,True,True,True,True
+AZ2,04019,211,5,Pima County,"Pima County, AZ",AZ,5,True,True,True,True
+AZ2,04021,808,5,Pinal County,"Pinal County, AZ",AZ,5,True,True,True,True
+AZ2,04025,328,5,Yavapai County,"Yavapai County, AZ",AZ,5,True,True,True,True
+AZ2,04027,18,5,Yuma County,"Yuma County, AZ",AZ,5,True,True,True,True
+AZ2,49017,25,5,Garfield County,"Garfield County, UT",UT,5,True,True,True,True
+AZ2,49025,31,5,Kane County,"Kane County, UT",UT,5,True,True,True,True
+AZ2,49037,95,5,San Juan County,"San Juan County, UT",UT,5,True,True,True,True
+AZ3,04001,1638,5,Apache County,"Apache County, AZ",AZ,5,True,True,True,True
+AZ3,04005,526,5,Coconino County,"Coconino County, AZ",AZ,5,True,True,True,True
+AZ3,04007,1,1,Gila County,"Gila County, AZ",AZ,1,True,True,False,True
+AZ3,04017,1411,5,Navajo County,"Navajo County, AZ",AZ,5,True,True,True,True
+AZ3,08007,24,5,Archuleta County,"Archuleta County, CO",CO,5,True,True,True,True
+AZ3,08067,145,5,La Plata County,"La Plata County, CO",CO,5,True,True,True,True
+AZ3,08083,235,5,Montezuma County,"Montezuma County, CO",CO,5,True,True,True,True
+AZ3,35003,237,5,Catron County,"Catron County, NM",NM,5,True,True,True,True
+AZ3,35006,318,5,Cibola County,"Cibola County, NM",NM,5,True,True,True,True
+AZ3,35031,801,5,McKinley County,"McKinley County, NM",NM,5,True,True,True,True
+AZ3,35039,58,5,Rio Arriba County,"Rio Arriba County, NM",NM,5,True,True,True,True
+AZ3,35043,19,5,Sandoval County,"Sandoval County, NM",NM,5,True,True,True,True
+AZ3,35045,870,5,San Juan County,"San Juan County, NM",NM,5,True,True,True,True
+AZ3,49037,416,5,San Juan County,"San Juan County, UT",UT,5,True,True,True,True
+AZ4,04003,855,5,Cochise County,"Cochise County, AZ",AZ,5,True,True,True,True
+AZ4,04005,1,1,Coconino County,"Coconino County, AZ",AZ,1,True,True,False,True
+AZ4,04007,4,4,Gila County,"Gila County, AZ",AZ,4,True,True,False,True
+AZ4,04009,355,5,Graham County,"Graham County, AZ",AZ,5,True,True,True,True
+AZ4,04011,45,5,Greenlee County,"Greenlee County, AZ",AZ,5,True,True,True,True
+AZ4,04017,56,5,Navajo County,"Navajo County, AZ",AZ,5,True,True,True,True
+AZ4,04019,879,5,Pima County,"Pima County, AZ",AZ,5,True,True,True,True
+AZ4,04021,7,5,Pinal County,"Pinal County, AZ",AZ,5,True,True,True,True
+AZ4,04023,100,5,Santa Cruz County,"Santa Cruz County, AZ",AZ,5,True,True,True,True
+AZ4,35003,10,5,Catron County,"Catron County, NM",NM,5,True,True,True,True
+AZ4,35017,52,5,Grant County,"Grant County, NM",NM,5,True,True,True,True
+AZ4,35023,330,5,Hidalgo County,"Hidalgo County, NM",NM,5,True,True,True,True
+AZ4,35029,5,5,Luna County,"Luna County, NM",NM,5,True,True,True,True
+CA1,06023,37,5,Humboldt County,"Humboldt County, CA",CA,5,True,True,True,True
+CA1,06035,165,5,Lassen County,"Lassen County, CA",CA,5,True,True,True,True
+CA1,06049,126,5,Modoc County,"Modoc County, CA",CA,5,True,True,True,True
+CA1,06089,319,5,Shasta County,"Shasta County, CA",CA,5,True,True,True,True
+CA1,06093,378,5,Siskiyou County,"Siskiyou County, CA",CA,5,True,True,True,True
+CA1,06103,131,5,Tehama County,"Tehama County, CA",CA,5,True,True,True,True
+CA1,06105,38,5,Trinity County,"Trinity County, CA",CA,5,True,True,True,True
+CA1,41029,1,1,Jackson County,"Jackson County, OR",OR,1,True,True,False,True
+CA1,41035,334,5,Klamath County,"Klamath County, OR",OR,5,True,True,True,True
+CA1,41037,23,5,Lake County,"Lake County, OR",OR,5,True,True,True,True
+CA2,06025,46,5,Imperial County,"Imperial County, CA",CA,5,True,True,True,True
+CA2,06029,260,5,Kern County,"Kern County, CA",CA,5,True,True,True,True
+CA2,06037,130,5,Los Angeles County,"Los Angeles County, CA",CA,5,True,True,True,True
+CA2,06059,12,5,Orange County,"Orange County, CA",CA,5,True,True,True,True
+CA2,06065,262,5,Riverside County,"Riverside County, CA",CA,5,True,True,True,True
+CA2,06071,399,5,San Bernardino County,"San Bernardino County, CA",CA,5,True,True,True,True
+CA2,06073,4,4,San Diego County,"San Diego County, CA",CA,4,True,True,False,True
+CA2,06079,19,5,San Luis Obispo County,"San Luis Obispo County, CA",CA,5,True,True,True,True
+CA2,06083,74,5,Santa Barbara County,"Santa Barbara County, CA",CA,5,True,True,True,True
+CA2,06107,146,5,Tulare County,"Tulare County, CA",CA,5,True,True,True,True
+CA2,06111,74,5,Ventura County,"Ventura County, CA",CA,5,True,True,True,True
+CA3,04027,16,5,Yuma County,"Yuma County, AZ",AZ,5,True,True,True,True
+CA3,06025,14,5,Imperial County,"Imperial County, CA",CA,5,True,True,True,True
+CA3,06059,1,1,Orange County,"Orange County, CA",CA,1,True,True,False,True
+CA3,06065,9,5,Riverside County,"Riverside County, CA",CA,5,True,True,True,True
+CA3,06073,268,5,San Diego County,"San Diego County, CA",CA,5,True,True,True,True
+CA4,06001,37,5,Alameda County,"Alameda County, CA",CA,5,True,True,True,True
+CA4,06003,1,1,Alpine County,"Alpine County, CA",CA,1,True,True,False,True
+CA4,06005,76,5,Amador County,"Amador County, CA",CA,5,True,True,True,True
+CA4,06007,193,5,Butte County,"Butte County, CA",CA,5,True,True,True,True
+CA4,06009,129,5,Calaveras County,"Calaveras County, CA",CA,5,True,True,True,True
+CA4,06011,143,5,Colusa County,"Colusa County, CA",CA,5,True,True,True,True
+CA4,06013,27,5,Contra Costa County,"Contra Costa County, CA",CA,5,True,True,True,True
+CA4,06017,139,5,El Dorado County,"El Dorado County, CA",CA,5,True,True,True,True
+CA4,06019,571,5,Fresno County,"Fresno County, CA",CA,5,True,True,True,True
+CA4,06021,151,5,Glenn County,"Glenn County, CA",CA,5,True,True,True,True
+CA4,06023,81,5,Humboldt County,"Humboldt County, CA",CA,5,True,True,True,True
+CA4,06029,222,5,Kern County,"Kern County, CA",CA,5,True,True,True,True
+CA4,06031,168,5,Kings County,"Kings County, CA",CA,5,True,True,True,True
+CA4,06033,86,5,Lake County,"Lake County, CA",CA,5,True,True,True,True
+CA4,06039,203,5,Madera County,"Madera County, CA",CA,5,True,True,True,True
+CA4,06041,22,5,Marin County,"Marin County, CA",CA,5,True,True,True,True
+CA4,06043,115,5,Mariposa County,"Mariposa County, CA",CA,5,True,True,True,True
+CA4,06045,181,5,Mendocino County,"Mendocino County, CA",CA,5,True,True,True,True
+CA4,06047,227,5,Merced County,"Merced County, CA",CA,5,True,True,True,True
+CA4,06053,299,5,Monterey County,"Monterey County, CA",CA,5,True,True,True,True
+CA4,06055,89,5,Napa County,"Napa County, CA",CA,5,True,True,True,True
+CA4,06057,79,5,Nevada County,"Nevada County, CA",CA,5,True,True,True,True
+CA4,06061,79,5,Placer County,"Placer County, CA",CA,5,True,True,True,True
+CA4,06063,21,5,Plumas County,"Plumas County, CA",CA,5,True,True,True,True
+CA4,06067,77,5,Sacramento County,"Sacramento County, CA",CA,5,True,True,True,True
+CA4,06069,155,5,San Benito County,"San Benito County, CA",CA,5,True,True,True,True
+CA4,06077,157,5,San Joaquin County,"San Joaquin County, CA",CA,5,True,True,True,True
+CA4,06079,327,5,San Luis Obispo County,"San Luis Obispo County, CA",CA,5,True,True,True,True
+CA4,06081,18,5,San Mateo County,"San Mateo County, CA",CA,5,True,True,True,True
+CA4,06083,102,5,Santa Barbara County,"Santa Barbara County, CA",CA,5,True,True,True,True
+CA4,06085,56,5,Santa Clara County,"Santa Clara County, CA",CA,5,True,True,True,True
+CA4,06087,16,5,Santa Cruz County,"Santa Cruz County, CA",CA,5,True,True,True,True
+CA4,06089,10,5,Shasta County,"Shasta County, CA",CA,5,True,True,True,True
+CA4,06091,7,5,Sierra County,"Sierra County, CA",CA,5,True,True,True,True
+CA4,06095,88,5,Solano County,"Solano County, CA",CA,5,True,True,True,True
+CA4,06097,136,5,Sonoma County,"Sonoma County, CA",CA,5,True,True,True,True
+CA4,06099,191,5,Stanislaus County,"Stanislaus County, CA",CA,5,True,True,True,True
+CA4,06101,72,5,Sutter County,"Sutter County, CA",CA,5,True,True,True,True
+CA4,06103,190,5,Tehama County,"Tehama County, CA",CA,5,True,True,True,True
+CA4,06105,11,5,Trinity County,"Trinity County, CA",CA,5,True,True,True,True
+CA4,06107,243,5,Tulare County,"Tulare County, CA",CA,5,True,True,True,True
+CA4,06109,100,5,Tuolumne County,"Tuolumne County, CA",CA,5,True,True,True,True
+CA4,06113,95,5,Yolo County,"Yolo County, CA",CA,5,True,True,True,True
+CA4,06115,78,5,Yuba County,"Yuba County, CA",CA,5,True,True,True,True
+CO1,08001,178,5,Adams County,"Adams County, CO",CO,5,True,True,True,True
+CO1,08005,109,5,Arapahoe County,"Arapahoe County, CO",CO,5,True,True,True,True
+CO1,08013,61,5,Boulder County,"Boulder County, CO",CO,5,True,True,True,True
+CO1,08014,2,2,Broomfield County,"Broomfield County, CO",CO,2,True,True,False,True
+CO1,08015,1,1,Chaffee County,"Chaffee County, CO",CO,1,True,True,False,True
+CO1,08019,4,4,Clear Creek County,"Clear Creek County, CO",CO,4,True,True,False,True
+CO1,08029,2,2,Delta County,"Delta County, CO",CO,2,True,True,False,True
+CO1,08031,3,3,Denver County,"Denver County, CO",CO,3,True,True,False,True
+CO1,08035,67,5,Douglas County,"Douglas County, CO",CO,5,True,True,True,True
+CO1,08037,67,5,Eagle County,"Eagle County, CO",CO,5,True,True,True,True
+CO1,08039,136,5,Elbert County,"Elbert County, CO",CO,5,True,True,True,True
+CO1,08045,34,5,Garfield County,"Garfield County, CO",CO,5,True,True,True,True
+CO1,08047,11,5,Gilpin County,"Gilpin County, CO",CO,5,True,True,True,True
+CO1,08049,105,5,Grand County,"Grand County, CO",CO,5,True,True,True,True
+CO1,08051,1,1,Gunnison County,"Gunnison County, CO",CO,1,True,True,False,True
+CO1,08059,47,5,Jefferson County,"Jefferson County, CO",CO,5,True,True,True,True
+CO1,08065,9,5,Lake County,"Lake County, CO",CO,5,True,True,True,True
+CO1,08069,44,5,Larimer County,"Larimer County, CO",CO,5,True,True,True,True
+CO1,08075,44,5,Logan County,"Logan County, CO",CO,5,True,True,True,True
+CO1,08077,24,5,Mesa County,"Mesa County, CO",CO,5,True,True,True,True
+CO1,08081,368,5,Moffat County,"Moffat County, CO",CO,5,True,True,True,True
+CO1,08087,233,5,Morgan County,"Morgan County, CO",CO,5,True,True,True,True
+CO1,08093,71,5,Park County,"Park County, CO",CO,5,True,True,True,True
+CO1,08095,4,4,Phillips County,"Phillips County, CO",CO,4,True,True,False,True
+CO1,08097,24,5,Pitkin County,"Pitkin County, CO",CO,5,True,True,True,True
+CO1,08103,12,5,Rio Blanco County,"Rio Blanco County, CO",CO,5,True,True,True,True
+CO1,08107,176,5,Routt County,"Routt County, CO",CO,5,True,True,True,True
+CO1,08117,12,5,Summit County,"Summit County, CO",CO,5,True,True,True,True
+CO1,08121,352,5,Washington County,"Washington County, CO",CO,5,True,True,True,True
+CO1,08123,316,5,Weld County,"Weld County, CO",CO,5,True,True,True,True
+CO1,08125,275,5,Yuma County,"Yuma County, CO",CO,5,True,True,True,True
+CO1,56007,34,5,Carbon County,"Carbon County, WY",WY,5,True,True,True,True
+CO1,56037,39,5,Sweetwater County,"Sweetwater County, WY",WY,5,True,True,True,True
+CO2,08003,76,5,Alamosa County,"Alamosa County, CO",CO,5,True,True,True,True
+CO2,08005,11,5,Arapahoe County,"Arapahoe County, CO",CO,5,True,True,True,True
+CO2,08011,117,5,Bent County,"Bent County, CO",CO,5,True,True,True,True
+CO2,08015,48,5,Chaffee County,"Chaffee County, CO",CO,5,True,True,True,True
+CO2,08017,69,5,Cheyenne County,"Cheyenne County, CO",CO,5,True,True,True,True
+CO2,08021,133,5,Conejos County,"Conejos County, CO",CO,5,True,True,True,True
+CO2,08023,148,5,Costilla County,"Costilla County, CO",CO,5,True,True,True,True
+CO2,08025,140,5,Crowley County,"Crowley County, CO",CO,5,True,True,True,True
+CO2,08027,82,5,Custer County,"Custer County, CO",CO,5,True,True,True,True
+CO2,08029,121,5,Delta County,"Delta County, CO",CO,5,True,True,True,True
+CO2,08033,1,1,Dolores County,"Dolores County, CO",CO,1,True,True,False,True
+CO2,08035,15,5,Douglas County,"Douglas County, CO",CO,5,True,True,True,True
+CO2,08039,175,5,Elbert County,"Elbert County, CO",CO,5,True,True,True,True
+CO2,08041,261,5,El Paso County,"El Paso County, CO",CO,5,True,True,True,True
+CO2,08043,175,5,Fremont County,"Fremont County, CO",CO,5,True,True,True,True
+CO2,08045,12,5,Garfield County,"Garfield County, CO",CO,5,True,True,True,True
+CO2,08051,159,5,Gunnison County,"Gunnison County, CO",CO,5,True,True,True,True
+CO2,08053,2,2,Hinsdale County,"Hinsdale County, CO",CO,2,True,True,False,True
+CO2,08055,235,5,Huerfano County,"Huerfano County, CO",CO,5,True,True,True,True
+CO2,08061,109,5,Kiowa County,"Kiowa County, CO",CO,5,True,True,True,True
+CO2,08063,21,5,Kit Carson County,"Kit Carson County, CO",CO,5,True,True,True,True
+CO2,08065,11,5,Lake County,"Lake County, CO",CO,5,True,True,True,True
+CO2,08071,482,5,Las Animas County,"Las Animas County, CO",CO,5,True,True,True,True
+CO2,08073,389,5,Lincoln County,"Lincoln County, CO",CO,5,True,True,True,True
+CO2,08077,245,5,Mesa County,"Mesa County, CO",CO,5,True,True,True,True
+CO2,08079,9,5,Mineral County,"Mineral County, CO",CO,5,True,True,True,True
+CO2,08083,4,4,Montezuma County,"Montezuma County, CO",CO,4,True,True,False,True
+CO2,08085,198,5,Montrose County,"Montrose County, CO",CO,5,True,True,True,True
+CO2,08089,204,5,Otero County,"Otero County, CO",CO,5,True,True,True,True
+CO2,08091,59,5,Ouray County,"Ouray County, CO",CO,5,True,True,True,True
+CO2,08093,145,5,Park County,"Park County, CO",CO,5,True,True,True,True
+CO2,08101,363,5,Pueblo County,"Pueblo County, CO",CO,5,True,True,True,True
+CO2,08105,86,5,Rio Grande County,"Rio Grande County, CO",CO,5,True,True,True,True
+CO2,08109,94,5,Saguache County,"Saguache County, CO",CO,5,True,True,True,True
+CO2,08113,130,5,San Miguel County,"San Miguel County, CO",CO,5,True,True,True,True
+CO2,08119,51,5,Teller County,"Teller County, CO",CO,5,True,True,True,True
+CO2,08121,16,5,Washington County,"Washington County, CO",CO,5,True,True,True,True
+CO2,35007,484,5,Colfax County,"Colfax County, NM",NM,5,True,True,True,True
+CO2,35021,168,5,Harding County,"Harding County, NM",NM,5,True,True,True,True
+CO2,35033,84,5,Mora County,"Mora County, NM",NM,5,True,True,True,True
+CO2,35039,3,3,Rio Arriba County,"Rio Arriba County, NM",NM,3,True,True,False,True
+CO2,35047,47,5,San Miguel County,"San Miguel County, NM",NM,5,True,True,True,True
+CO2,35055,42,5,Taos County,"Taos County, NM",NM,5,True,True,True,True
+CO2,35059,52,5,Union County,"Union County, NM",NM,5,True,True,True,True
+ID1,16001,87,5,Ada County,"Ada County, ID",ID,5,True,True,True,True
+ID1,16013,59,5,Blaine County,"Blaine County, ID",ID,5,True,True,True,True
+ID1,16015,48,5,Boise County,"Boise County, ID",ID,5,True,True,True,True
+ID1,16025,76,5,Camas County,"Camas County, ID",ID,5,True,True,True,True
+ID1,16027,69,5,Canyon County,"Canyon County, ID",ID,5,True,True,True,True
+ID1,16039,278,5,Elmore County,"Elmore County, ID",ID,5,True,True,True,True
+ID1,16045,18,5,Gem County,"Gem County, ID",ID,5,True,True,True,True
+ID1,16047,121,5,Gooding County,"Gooding County, ID",ID,5,True,True,True,True
+ID1,16053,59,5,Jerome County,"Jerome County, ID",ID,5,True,True,True,True
+ID1,16063,115,5,Lincoln County,"Lincoln County, ID",ID,5,True,True,True,True
+ID1,16073,966,5,Owyhee County,"Owyhee County, ID",ID,5,True,True,True,True
+ID1,16083,140,5,Twin Falls County,"Twin Falls County, ID",ID,5,True,True,True,True
+ID1,32007,1464,5,Elko County,"Elko County, NV",NV,5,True,True,True,True
+ID1,32013,581,5,Humboldt County,"Humboldt County, NV",NV,5,True,True,True,True
+ID1,32027,71,5,Pershing County,"Pershing County, NV",NV,5,True,True,True,True
+ID1,32033,1,1,White Pine County,"White Pine County, NV",NV,1,True,True,False,True
+ID1,41023,1,1,Grant County,"Grant County, OR",OR,1,True,True,False,True
+ID1,41025,302,5,Harney County,"Harney County, OR",OR,5,True,True,True,True
+ID1,41037,47,5,Lake County,"Lake County, OR",OR,5,True,True,True,True
+ID1,41045,424,5,Malheur County,"Malheur County, OR",OR,5,True,True,True,True
+ID1,49003,73,5,Box Elder County,"Box Elder County, UT",UT,5,True,True,True,True
+ID1,49045,37,5,Tooele County,"Tooele County, UT",UT,5,True,True,True,True
+ID2,16009,23,5,Benewah County,"Benewah County, ID",ID,5,True,True,True,True
+ID2,16017,143,5,Bonner County,"Bonner County, ID",ID,5,True,True,True,True
+ID2,16021,66,5,Boundary County,"Boundary County, ID",ID,5,True,True,True,True
+ID2,16035,130,5,Clearwater County,"Clearwater County, ID",ID,5,True,True,True,True
+ID2,16049,96,5,Idaho County,"Idaho County, ID",ID,5,True,True,True,True
+ID2,16055,94,5,Kootenai County,"Kootenai County, ID",ID,5,True,True,True,True
+ID2,16057,124,5,Latah County,"Latah County, ID",ID,5,True,True,True,True
+ID2,16061,77,5,Lewis County,"Lewis County, ID",ID,5,True,True,True,True
+ID2,16069,102,5,Nez Perce County,"Nez Perce County, ID",ID,5,True,True,True,True
+ID2,16079,8,5,Shoshone County,"Shoshone County, ID",ID,5,True,True,True,True
+ID2,30053,25,5,Lincoln County,"Lincoln County, MT",MT,5,True,True,True,True
+ID2,30061,4,4,Mineral County,"Mineral County, MT",MT,4,True,True,False,True
+ID2,30089,34,5,Sanders County,"Sanders County, MT",MT,5,True,True,True,True
+ID2,41063,7,5,Wallowa County,"Wallowa County, OR",OR,5,True,True,True,True
+ID2,53003,5,5,Asotin County,"Asotin County, WA",WA,5,True,True,True,True
+ID2,53023,11,5,Garfield County,"Garfield County, WA",WA,5,True,True,True,True
+ID2,53051,57,5,Pend Oreille County,"Pend Oreille County, WA",WA,5,True,True,True,True
+ID2,53063,9,5,Spokane County,"Spokane County, WA",WA,5,True,True,True,True
+ID2,53065,6,5,Stevens County,"Stevens County, WA",WA,5,True,True,True,True
+ID2,53075,14,5,Whitman County,"Whitman County, WA",WA,5,True,True,True,True
+ID3,16005,135,5,Bannock County,"Bannock County, ID",ID,5,True,True,True,True
+ID3,16007,106,5,Bear Lake County,"Bear Lake County, ID",ID,5,True,True,True,True
+ID3,16011,343,5,Bingham County,"Bingham County, ID",ID,5,True,True,True,True
+ID3,16013,150,5,Blaine County,"Blaine County, ID",ID,5,True,True,True,True
+ID3,16019,167,5,Bonneville County,"Bonneville County, ID",ID,5,True,True,True,True
+ID3,16023,277,5,Butte County,"Butte County, ID",ID,5,True,True,True,True
+ID3,16029,215,5,Caribou County,"Caribou County, ID",ID,5,True,True,True,True
+ID3,16031,338,5,Cassia County,"Cassia County, ID",ID,5,True,True,True,True
+ID3,16033,214,5,Clark County,"Clark County, ID",ID,5,True,True,True,True
+ID3,16037,186,5,Custer County,"Custer County, ID",ID,5,True,True,True,True
+ID3,16041,84,5,Franklin County,"Franklin County, ID",ID,5,True,True,True,True
+ID3,16043,173,5,Fremont County,"Fremont County, ID",ID,5,True,True,True,True
+ID3,16051,181,5,Jefferson County,"Jefferson County, ID",ID,5,True,True,True,True
+ID3,16053,48,5,Jerome County,"Jerome County, ID",ID,5,True,True,True,True
+ID3,16059,175,5,Lemhi County,"Lemhi County, ID",ID,5,True,True,True,True
+ID3,16063,79,5,Lincoln County,"Lincoln County, ID",ID,5,True,True,True,True
+ID3,16065,70,5,Madison County,"Madison County, ID",ID,5,True,True,True,True
+ID3,16067,115,5,Minidoka County,"Minidoka County, ID",ID,5,True,True,True,True
+ID3,16071,157,5,Oneida County,"Oneida County, ID",ID,5,True,True,True,True
+ID3,16073,104,5,Owyhee County,"Owyhee County, ID",ID,5,True,True,True,True
+ID3,16077,220,5,Power County,"Power County, ID",ID,5,True,True,True,True
+ID3,16081,52,5,Teton County,"Teton County, ID",ID,5,True,True,True,True
+ID3,16083,169,5,Twin Falls County,"Twin Falls County, ID",ID,5,True,True,True,True
+ID3,30001,431,5,Beaverhead County,"Beaverhead County, MT",MT,5,True,True,True,True
+ID3,30007,15,5,Broadwater County,"Broadwater County, MT",MT,5,True,True,True,True
+ID3,30023,13,5,Deer Lodge County,"Deer Lodge County, MT",MT,5,True,True,True,True
+ID3,30031,88,5,Gallatin County,"Gallatin County, MT",MT,5,True,True,True,True
+ID3,30043,34,5,Jefferson County,"Jefferson County, MT",MT,5,True,True,True,True
+ID3,30057,240,5,Madison County,"Madison County, MT",MT,5,True,True,True,True
+ID3,30081,1,1,Ravalli County,"Ravalli County, MT",MT,1,True,True,False,True
+ID3,30093,21,5,Silver Bow County,"Silver Bow County, MT",MT,5,True,True,True,True
+ID3,32007,22,5,Elko County,"Elko County, NV",NV,5,True,True,True,True
+ID3,49003,372,5,Box Elder County,"Box Elder County, UT",UT,5,True,True,True,True
+ID3,49005,21,5,Cache County,"Cache County, UT",UT,5,True,True,True,True
+ID3,49033,7,5,Rich County,"Rich County, UT",UT,5,True,True,True,True
+ID3,56023,48,5,Lincoln County,"Lincoln County, WY",WY,5,True,True,True,True
+ID3,56039,5,5,Teton County,"Teton County, WY",WY,5,True,True,True,True
+MT1,16049,5,5,Idaho County,"Idaho County, ID",ID,5,True,True,True,True
+MT1,30023,42,5,Deer Lodge County,"Deer Lodge County, MT",MT,5,True,True,True,True
+MT1,30029,208,5,Flathead County,"Flathead County, MT",MT,5,True,True,True,True
+MT1,30039,100,5,Granite County,"Granite County, MT",MT,5,True,True,True,True
+MT1,30043,43,5,Jefferson County,"Jefferson County, MT",MT,5,True,True,True,True
+MT1,30047,165,5,Lake County,"Lake County, MT",MT,5,True,True,True,True
+MT1,30049,10,5,Lewis and Clark County,"Lewis and Clark County, MT",MT,5,True,True,True,True
+MT1,30053,95,5,Lincoln County,"Lincoln County, MT",MT,5,True,True,True,True
+MT1,30057,25,5,Madison County,"Madison County, MT",MT,5,True,True,True,True
+MT1,30061,19,5,Mineral County,"Mineral County, MT",MT,5,True,True,True,True
+MT1,30063,126,5,Missoula County,"Missoula County, MT",MT,5,True,True,True,True
+MT1,30077,196,5,Powell County,"Powell County, MT",MT,5,True,True,True,True
+MT1,30081,89,5,Ravalli County,"Ravalli County, MT",MT,5,True,True,True,True
+MT1,30089,111,5,Sanders County,"Sanders County, MT",MT,5,True,True,True,True
+MT1,30093,55,5,Silver Bow County,"Silver Bow County, MT",MT,5,True,True,True,True
+MT2,30001,124,5,Beaverhead County,"Beaverhead County, MT",MT,5,True,True,True,True
+MT2,30005,252,5,Blaine County,"Blaine County, MT",MT,5,True,True,True,True
+MT2,30007,137,5,Broadwater County,"Broadwater County, MT",MT,5,True,True,True,True
+MT2,30013,391,5,Cascade County,"Cascade County, MT",MT,5,True,True,True,True
+MT2,30015,656,5,Chouteau County,"Chouteau County, MT",MT,5,True,True,True,True
+MT2,30023,1,1,Deer Lodge County,"Deer Lodge County, MT",MT,1,True,True,False,True
+MT2,30027,406,5,Fergus County,"Fergus County, MT",MT,5,True,True,True,True
+MT2,30031,26,5,Gallatin County,"Gallatin County, MT",MT,5,True,True,True,True
+MT2,30035,414,5,Glacier County,"Glacier County, MT",MT,5,True,True,True,True
+MT2,30041,487,5,Hill County,"Hill County, MT",MT,5,True,True,True,True
+MT2,30043,62,5,Jefferson County,"Jefferson County, MT",MT,5,True,True,True,True
+MT2,30045,247,5,Judith Basin County,"Judith Basin County, MT",MT,5,True,True,True,True
+MT2,30049,245,5,Lewis and Clark County,"Lewis and Clark County, MT",MT,5,True,True,True,True
+MT2,30051,241,5,Liberty County,"Liberty County, MT",MT,5,True,True,True,True
+MT2,30057,75,5,Madison County,"Madison County, MT",MT,5,True,True,True,True
+MT2,30059,211,5,Meagher County,"Meagher County, MT",MT,5,True,True,True,True
+MT2,30067,2,2,Park County,"Park County, MT",MT,2,True,True,False,True
+MT2,30073,249,5,Pondera County,"Pondera County, MT",MT,5,True,True,True,True
+MT2,30099,322,5,Teton County,"Teton County, MT",MT,5,True,True,True,True
+MT2,30101,338,5,Toole County,"Toole County, MT",MT,5,True,True,True,True
+MT3,30003,436,5,Big Horn County,"Big Horn County, MT",MT,5,True,True,True,True
+MT3,30009,258,5,Carbon County,"Carbon County, MT",MT,5,True,True,True,True
+MT3,30027,280,5,Fergus County,"Fergus County, MT",MT,5,True,True,True,True
+MT3,30031,109,5,Gallatin County,"Gallatin County, MT",MT,5,True,True,True,True
+MT3,30033,45,5,Garfield County,"Garfield County, MT",MT,5,True,True,True,True
+MT3,30037,189,5,Golden Valley County,"Golden Valley County, MT",MT,5,True,True,True,True
+MT3,30043,11,5,Jefferson County,"Jefferson County, MT",MT,5,True,True,True,True
+MT3,30045,4,4,Judith Basin County,"Judith Basin County, MT",MT,4,True,True,False,True
+MT3,30059,75,5,Meagher County,"Meagher County, MT",MT,5,True,True,True,True
+MT3,30065,304,5,Musselshell County,"Musselshell County, MT",MT,5,True,True,True,True
+MT3,30067,211,5,Park County,"Park County, MT",MT,5,True,True,True,True
+MT3,30069,262,5,Petroleum County,"Petroleum County, MT",MT,5,True,True,True,True
+MT3,30071,2,2,Phillips County,"Phillips County, MT",MT,2,True,True,False,True
+MT3,30087,56,5,Rosebud County,"Rosebud County, MT",MT,5,True,True,True,True
+MT3,30095,254,5,Stillwater County,"Stillwater County, MT",MT,5,True,True,True,True
+MT3,30097,239,5,Sweet Grass County,"Sweet Grass County, MT",MT,5,True,True,True,True
+MT3,30103,85,5,Treasure County,"Treasure County, MT",MT,5,True,True,True,True
+MT3,30107,224,5,Wheatland County,"Wheatland County, MT",MT,5,True,True,True,True
+MT3,30111,446,5,Yellowstone County,"Yellowstone County, MT",MT,5,True,True,True,True
+MT3,56003,382,5,Big Horn County,"Big Horn County, WY",WY,5,True,True,True,True
+MT3,56013,96,5,Fremont County,"Fremont County, WY",WY,5,True,True,True,True
+MT3,56017,45,5,Hot Springs County,"Hot Springs County, WY",WY,5,True,True,True,True
+MT3,56025,33,5,Natrona County,"Natrona County, WY",WY,5,True,True,True,True
+MT3,56029,402,5,Park County,"Park County, WY",WY,5,True,True,True,True
+MT3,56043,71,5,Washakie County,"Washakie County, WY",WY,5,True,True,True,True
+MT4,30005,420,5,Blaine County,"Blaine County, MT",MT,5,True,True,True,True
+MT4,30019,249,5,Daniels County,"Daniels County, MT",MT,5,True,True,True,True
+MT4,30021,62,5,Dawson County,"Dawson County, MT",MT,5,True,True,True,True
+MT4,30033,72,5,Garfield County,"Garfield County, MT",MT,5,True,True,True,True
+MT4,30055,322,5,McCone County,"McCone County, MT",MT,5,True,True,True,True
+MT4,30071,685,5,Phillips County,"Phillips County, MT",MT,5,True,True,True,True
+MT4,30083,230,5,Richland County,"Richland County, MT",MT,5,True,True,True,True
+MT4,30085,343,5,Roosevelt County,"Roosevelt County, MT",MT,5,True,True,True,True
+MT4,30091,297,5,Sheridan County,"Sheridan County, MT",MT,5,True,True,True,True
+MT4,30105,802,5,Valley County,"Valley County, MT",MT,5,True,True,True,True
+NM1,08007,107,5,Archuleta County,"Archuleta County, CO",CO,5,True,True,True,True
+NM1,08021,1,1,Conejos County,"Conejos County, CO",CO,1,True,True,False,True
+NM1,08033,89,5,Dolores County,"Dolores County, CO",CO,5,True,True,True,True
+NM1,08053,2,2,Hinsdale County,"Hinsdale County, CO",CO,2,True,True,False,True
+NM1,08067,34,5,La Plata County,"La Plata County, CO",CO,5,True,True,True,True
+NM1,08077,2,2,Mesa County,"Mesa County, CO",CO,2,True,True,False,True
+NM1,08079,5,5,Mineral County,"Mineral County, CO",CO,5,True,True,True,True
+NM1,08083,6,5,Montezuma County,"Montezuma County, CO",CO,5,True,True,True,True
+NM1,08085,82,5,Montrose County,"Montrose County, CO",CO,5,True,True,True,True
+NM1,08109,139,5,Saguache County,"Saguache County, CO",CO,5,True,True,True,True
+NM1,08113,53,5,San Miguel County,"San Miguel County, CO",CO,5,True,True,True,True
+NM1,35001,136,5,Bernalillo County,"Bernalillo County, NM",NM,5,True,True,True,True
+NM1,35003,252,5,Catron County,"Catron County, NM",NM,5,True,True,True,True
+NM1,35006,319,5,Cibola County,"Cibola County, NM",NM,5,True,True,True,True
+NM1,35007,41,5,Colfax County,"Colfax County, NM",NM,5,True,True,True,True
+NM1,35013,21,5,Dona Ana County,"Dona Ana County, NM",NM,5,True,True,True,True
+NM1,35017,2,2,Grant County,"Grant County, NM",NM,2,True,True,False,True
+NM1,35019,135,5,Guadalupe County,"Guadalupe County, NM",NM,5,True,True,True,True
+NM1,35027,20,5,Lincoln County,"Lincoln County, NM",NM,5,True,True,True,True
+NM1,35028,9,5,Los Alamos County,"Los Alamos County, NM",NM,5,True,True,True,True
+NM1,35029,3,3,Luna County,"Luna County, NM",NM,3,True,True,False,True
+NM1,35031,87,5,McKinley County,"McKinley County, NM",NM,5,True,True,True,True
+NM1,35033,212,5,Mora County,"Mora County, NM",NM,5,True,True,True,True
+NM1,35039,509,5,Rio Arriba County,"Rio Arriba County, NM",NM,5,True,True,True,True
+NM1,35043,472,5,Sandoval County,"Sandoval County, NM",NM,5,True,True,True,True
+NM1,35045,5,5,San Juan County,"San Juan County, NM",NM,4,True,False,True,False
+NM1,35047,500,5,San Miguel County,"San Miguel County, NM",NM,5,True,True,True,True
+NM1,35049,258,5,Santa Fe County,"Santa Fe County, NM",NM,5,True,True,True,True
+NM1,35051,7,5,Sierra County,"Sierra County, NM",NM,5,True,True,True,True
+NM1,35053,465,5,Socorro County,"Socorro County, NM",NM,5,True,True,True,True
+NM1,35055,112,5,Taos County,"Taos County, NM",NM,5,True,True,True,True
+NM1,35057,490,5,Torrance County,"Torrance County, NM",NM,5,True,True,True,True
+NM1,35061,174,5,Valencia County,"Valencia County, NM",NM,5,True,True,True,True
+NM1,49019,25,5,Grand County,"Grand County, UT",UT,5,True,True,True,True
+NM1,49037,240,5,San Juan County,"San Juan County, UT",UT,5,True,True,True,True
+NV1,06003,14,5,Alpine County,"Alpine County, CA",CA,5,True,True,True,True
+NV1,06017,3,3,El Dorado County,"El Dorado County, CA",CA,2,True,False,False,True
+NV1,06035,331,5,Lassen County,"Lassen County, CA",CA,5,True,True,True,True
+NV1,06049,211,5,Modoc County,"Modoc County, CA",CA,5,True,True,True,True
+NV1,06051,32,5,Mono County,"Mono County, CA",CA,5,True,True,True,True
+NV1,06057,32,5,Nevada County,"Nevada County, CA",CA,5,True,True,True,True
+NV1,06061,18,5,Placer County,"Placer County, CA",CA,5,True,True,True,True
+NV1,06063,109,5,Plumas County,"Plumas County, CA",CA,5,True,True,True,True
+NV1,06091,42,5,Sierra County,"Sierra County, CA",CA,5,True,True,True,True
+NV1,16073,15,5,Owyhee County,"Owyhee County, ID",ID,5,True,True,True,True
+NV1,32001,584,5,Churchill County,"Churchill County, NV",NV,5,True,True,True,True
+NV1,32003,3,3,Clark County,"Clark County, NV",NV,3,True,True,False,True
+NV1,32005,79,5,Douglas County,"Douglas County, NV",NV,5,True,True,True,True
+NV1,32007,531,5,Elko County,"Elko County, NV",NV,5,True,True,True,True
+NV1,32009,22,5,Esmeralda County,"Esmeralda County, NV",NV,5,True,True,True,True
+NV1,32011,557,5,Eureka County,"Eureka County, NV",NV,5,True,True,True,True
+NV1,32013,515,5,Humboldt County,"Humboldt County, NV",NV,5,True,True,True,True
+NV1,32015,646,5,Lander County,"Lander County, NV",NV,5,True,True,True,True
+NV1,32019,258,5,Lyon County,"Lyon County, NV",NV,5,True,True,True,True
+NV1,32021,355,5,Mineral County,"Mineral County, NV",NV,5,True,True,True,True
+NV1,32023,726,5,Nye County,"Nye County, NV",NV,5,True,True,True,True
+NV1,32027,789,5,Pershing County,"Pershing County, NV",NV,5,True,True,True,True
+NV1,32029,40,5,Storey County,"Storey County, NV",NV,5,True,True,True,True
+NV1,32031,612,5,Washoe County,"Washoe County, NV",NV,5,True,True,True,True
+NV1,32033,402,5,White Pine County,"White Pine County, NV",NV,5,True,True,True,True
+NV1,32510,14,5,Carson City,"Carson City, NV",NV,5,True,True,True,True
+NV1,41025,375,5,Harney County,"Harney County, OR",OR,5,True,True,True,True
+NV1,41037,114,5,Lake County,"Lake County, OR",OR,5,True,True,True,True
+NV1,41045,200,5,Malheur County,"Malheur County, OR",OR,5,True,True,True,True
+NV2,04005,112,5,Coconino County,"Coconino County, AZ",AZ,5,True,True,True,True
+NV2,04015,461,5,Mohave County,"Mohave County, AZ",AZ,5,True,True,True,True
+NV2,06027,168,5,Inyo County,"Inyo County, CA",CA,5,True,True,True,True
+NV2,06029,359,5,Kern County,"Kern County, CA",CA,5,True,True,True,True
+NV2,06037,59,5,Los Angeles County,"Los Angeles County, CA",CA,5,True,True,True,True
+NV2,06051,37,5,Mono County,"Mono County, CA",CA,5,True,True,True,True
+NV2,06071,59,5,San Bernardino County,"San Bernardino County, CA",CA,5,True,True,True,True
+NV2,06107,6,5,Tulare County,"Tulare County, CA",CA,5,True,True,True,True
+NV2,06111,8,5,Ventura County,"Ventura County, CA",CA,5,True,True,True,True
+NV2,32003,469,5,Clark County,"Clark County, NV",NV,5,True,True,True,True
+NV2,32007,115,5,Elko County,"Elko County, NV",NV,5,True,True,True,True
+NV2,32009,497,5,Esmeralda County,"Esmeralda County, NV",NV,5,True,True,True,True
+NV2,32017,1067,5,Lincoln County,"Lincoln County, NV",NV,5,True,True,True,True
+NV2,32021,64,5,Mineral County,"Mineral County, NV",NV,5,True,True,True,True
+NV2,32023,1115,5,Nye County,"Nye County, NV",NV,5,True,True,True,True
+NV2,32033,586,5,White Pine County,"White Pine County, NV",NV,5,True,True,True,True
+NV2,49001,243,5,Beaver County,"Beaver County, UT",UT,5,True,True,True,True
+NV2,49017,60,5,Garfield County,"Garfield County, UT",UT,5,True,True,True,True
+NV2,49021,193,5,Iron County,"Iron County, UT",UT,5,True,True,True,True
+NV2,49023,104,5,Juab County,"Juab County, UT",UT,5,True,True,True,True
+NV2,49025,123,5,Kane County,"Kane County, UT",UT,5,True,True,True,True
+NV2,49027,241,5,Millard County,"Millard County, UT",UT,5,True,True,True,True
+NV2,49031,32,5,Piute County,"Piute County, UT",UT,5,True,True,True,True
+NV2,49041,1,1,Sevier County,"Sevier County, UT",UT,1,True,True,False,True
+NV2,49045,70,5,Tooele County,"Tooele County, UT",UT,5,True,True,True,True
+NV2,49053,126,5,Washington County,"Washington County, UT",UT,5,True,True,True,True
+OR1,06015,20,5,Del Norte County,"Del Norte County, CA",CA,5,True,True,True,True
+OR1,06023,5,5,Humboldt County,"Humboldt County, CA",CA,5,True,True,True,True
+OR1,41003,80,5,Benton County,"Benton County, OR",OR,5,True,True,True,True
+OR1,41005,140,5,Clackamas County,"Clackamas County, OR",OR,5,True,True,True,True
+OR1,41007,112,5,Clatsop County,"Clatsop County, OR",OR,5,True,True,True,True
+OR1,41009,98,5,Columbia County,"Columbia County, OR",OR,5,True,True,True,True
+OR1,41015,17,5,Curry County,"Curry County, OR",OR,5,True,True,True,True
+OR1,41017,11,5,Deschutes County,"Deschutes County, OR",OR,5,True,True,True,True
+OR1,41019,31,5,Douglas County,"Douglas County, OR",OR,5,True,True,True,True
+OR1,41027,32,5,Hood River County,"Hood River County, OR",OR,5,True,True,True,True
+OR1,41031,62,5,Jefferson County,"Jefferson County, OR",OR,5,True,True,True,True
+OR1,41039,228,5,Lane County,"Lane County, OR",OR,5,True,True,True,True
+OR1,41041,64,5,Lincoln County,"Lincoln County, OR",OR,5,True,True,True,True
+OR1,41043,204,5,Linn County,"Linn County, OR",OR,5,True,True,True,True
+OR1,41047,149,5,Marion County,"Marion County, OR",OR,5,True,True,True,True
+OR1,41051,27,5,Multnomah County,"Multnomah County, OR",OR,5,True,True,True,True
+OR1,41053,105,5,Polk County,"Polk County, OR",OR,5,True,True,True,True
+OR1,41057,61,5,Tillamook County,"Tillamook County, OR",OR,5,True,True,True,True
+OR1,41059,6,5,Umatilla County,"Umatilla County, OR",OR,5,True,True,True,True
+OR1,41061,2,2,Union County,"Union County, OR",OR,2,True,True,False,True
+OR1,41065,62,5,Wasco County,"Wasco County, OR",OR,5,True,True,True,True
+OR1,41067,92,5,Washington County,"Washington County, OR",OR,5,True,True,True,True
+OR1,41071,114,5,Yamhill County,"Yamhill County, OR",OR,5,True,True,True,True
+OR1,53011,88,5,Clark County,"Clark County, WA",WA,5,True,True,True,True
+OR1,53015,58,5,Cowlitz County,"Cowlitz County, WA",WA,5,True,True,True,True
+OR1,53049,21,5,Pacific County,"Pacific County, WA",WA,5,True,True,True,True
+OR1,53059,29,5,Skamania County,"Skamania County, WA",WA,5,True,True,True,True
+OR1,53069,37,5,Wahkiakum County,"Wahkiakum County, WA",WA,5,True,True,True,True
+OR2,06035,1,1,Lassen County,"Lassen County, CA",CA,1,True,True,False,True
+OR2,06049,37,5,Modoc County,"Modoc County, CA",CA,5,True,True,True,True
+OR2,06093,6,5,Siskiyou County,"Siskiyou County, CA",CA,5,True,True,True,True
+OR2,32013,2,2,Humboldt County,"Humboldt County, NV",NV,2,True,True,False,True
+OR2,32031,23,5,Washoe County,"Washoe County, NV",NV,5,True,True,True,True
+OR2,41011,94,5,Coos County,"Coos County, OR",OR,5,True,True,True,True
+OR2,41013,115,5,Crook County,"Crook County, OR",OR,5,True,True,True,True
+OR2,41015,9,5,Curry County,"Curry County, OR",OR,5,True,True,True,True
+OR2,41017,140,5,Deschutes County,"Deschutes County, OR",OR,5,True,True,True,True
+OR2,41019,215,5,Douglas County,"Douglas County, OR",OR,5,True,True,True,True
+OR2,41023,13,5,Grant County,"Grant County, OR",OR,5,True,True,True,True
+OR2,41025,42,5,Harney County,"Harney County, OR",OR,5,True,True,True,True
+OR2,41029,227,5,Jackson County,"Jackson County, OR",OR,5,True,True,True,True
+OR2,41033,90,5,Josephine County,"Josephine County, OR",OR,5,True,True,True,True
+OR2,41035,226,5,Klamath County,"Klamath County, OR",OR,5,True,True,True,True
+OR2,41037,823,5,Lake County,"Lake County, OR",OR,5,True,True,True,True
+OR2,41039,16,5,Lane County,"Lane County, OR",OR,5,True,True,True,True
+OR3,16003,82,5,Adams County,"Adams County, ID",ID,5,True,True,True,True
+OR3,16015,1,1,Boise County,"Boise County, ID",ID,1,True,True,False,True
+OR3,16027,21,5,Canyon County,"Canyon County, ID",ID,5,True,True,True,True
+OR3,16045,53,5,Gem County,"Gem County, ID",ID,5,True,True,True,True
+OR3,16049,25,5,Idaho County,"Idaho County, ID",ID,5,True,True,True,True
+OR3,16073,6,5,Owyhee County,"Owyhee County, ID",ID,5,True,True,True,True
+OR3,16075,69,5,Payette County,"Payette County, ID",ID,5,True,True,True,True
+OR3,16085,85,5,Valley County,"Valley County, ID",ID,5,True,True,True,True
+OR3,16087,188,5,Washington County,"Washington County, ID",ID,5,True,True,True,True
+OR3,41001,320,5,Baker County,"Baker County, OR",OR,5,True,True,True,True
+OR3,41023,135,5,Grant County,"Grant County, OR",OR,5,True,True,True,True
+OR3,41025,560,5,Harney County,"Harney County, OR",OR,5,True,True,True,True
+OR3,41045,779,5,Malheur County,"Malheur County, OR",OR,5,True,True,True,True
+OR3,41059,21,5,Umatilla County,"Umatilla County, OR",OR,5,True,True,True,True
+OR3,41061,183,5,Union County,"Union County, OR",OR,5,True,True,True,True
+OR3,41063,32,5,Wallowa County,"Wallowa County, OR",OR,5,True,True,True,True
+SD1,30011,74,5,Carter County,"Carter County, MT",MT,5,True,True,True,True
+SD1,46007,172,5,Bennett County,"Bennett County, SD",SD,5,True,True,True,True
+SD1,46019,380,5,Butte County,"Butte County, SD",SD,5,True,True,True,True
+SD1,46033,165,5,Custer County,"Custer County, SD",SD,5,True,True,True,True
+SD1,46041,79,5,Dewey County,"Dewey County, SD",SD,5,True,True,True,True
+SD1,46047,260,5,Fall River County,"Fall River County, SD",SD,5,True,True,True,True
+SD1,46055,300,5,Haakon County,"Haakon County, SD",SD,5,True,True,True,True
+SD1,46063,348,5,Harding County,"Harding County, SD",SD,5,True,True,True,True
+SD1,46065,5,5,Hughes County,"Hughes County, SD",SD,5,True,True,True,True
+SD1,46071,307,5,Jackson County,"Jackson County, SD",SD,5,True,True,True,True
+SD1,46075,171,5,Jones County,"Jones County, SD",SD,5,True,True,True,True
+SD1,46081,58,5,Lawrence County,"Lawrence County, SD",SD,5,True,True,True,True
+SD1,46085,13,5,Lyman County,"Lyman County, SD",SD,5,True,True,True,True
+SD1,46093,558,5,Meade County,"Meade County, SD",SD,5,True,True,True,True
+SD1,46095,173,5,Mellette County,"Mellette County, SD",SD,5,True,True,True,True
+SD1,46102,328,5,Oglala Lakota County,"Oglala Lakota County, SD",SD,5,True,True,True,True
+SD1,46103,322,5,Pennington County,"Pennington County, SD",SD,5,True,True,True,True
+SD1,46105,320,5,Perkins County,"Perkins County, SD",SD,5,True,True,True,True
+SD1,46107,79,5,Potter County,"Potter County, SD",SD,5,True,True,True,True
+SD1,46117,206,5,Stanley County,"Stanley County, SD",SD,5,True,True,True,True
+SD1,46119,10,5,Sully County,"Sully County, SD",SD,5,True,True,True,True
+SD1,46121,148,5,Todd County,"Todd County, SD",SD,5,True,True,True,True
+SD1,46137,278,5,Ziebach County,"Ziebach County, SD",SD,5,True,True,True,True
+SD1,56009,2,2,Converse County,"Converse County, WY",WY,2,True,True,False,True
+SD1,56011,50,5,Crook County,"Crook County, WY",WY,5,True,True,True,True
+SD1,56027,8,5,Niobrara County,"Niobrara County, WY",WY,5,True,True,True,True
+UT1,04015,5,5,Mohave County,"Mohave County, AZ",AZ,5,True,True,True,True
+UT1,08077,7,5,Mesa County,"Mesa County, CO",CO,5,True,True,True,True
+UT1,08103,9,5,Rio Blanco County,"Rio Blanco County, CO",CO,5,True,True,True,True
+UT1,32017,84,5,Lincoln County,"Lincoln County, NV",NV,5,True,True,True,True
+UT1,32033,2,2,White Pine County,"White Pine County, NV",NV,2,True,True,False,True
+UT1,49001,126,5,Beaver County,"Beaver County, UT",UT,5,True,True,True,True
+UT1,49003,182,5,Box Elder County,"Box Elder County, UT",UT,5,True,True,True,True
+UT1,49005,81,5,Cache County,"Cache County, UT",UT,5,True,True,True,True
+UT1,49007,110,5,Carbon County,"Carbon County, UT",UT,5,True,True,True,True
+UT1,49011,1,1,Davis County,"Davis County, UT",UT,1,True,True,False,True
+UT1,49013,8,5,Duchesne County,"Duchesne County, UT",UT,5,True,True,True,True
+UT1,49015,211,5,Emery County,"Emery County, UT",UT,5,True,True,True,True
+UT1,49017,127,5,Garfield County,"Garfield County, UT",UT,5,True,True,True,True
+UT1,49019,45,5,Grand County,"Grand County, UT",UT,5,True,True,True,True
+UT1,49021,250,5,Iron County,"Iron County, UT",UT,5,True,True,True,True
+UT1,49023,358,5,Juab County,"Juab County, UT",UT,5,True,True,True,True
+UT1,49027,677,5,Millard County,"Millard County, UT",UT,5,True,True,True,True
+UT1,49029,30,5,Morgan County,"Morgan County, UT",UT,5,True,True,True,True
+UT1,49031,38,5,Piute County,"Piute County, UT",UT,5,True,True,True,True
+UT1,49033,53,5,Rich County,"Rich County, UT",UT,5,True,True,True,True
+UT1,49035,23,5,Salt Lake County,"Salt Lake County, UT",UT,5,True,True,True,True
+UT1,49037,4,4,San Juan County,"San Juan County, UT",UT,4,True,True,False,True
+UT1,49039,158,5,Sanpete County,"Sanpete County, UT",UT,5,True,True,True,True
+UT1,49041,151,5,Sevier County,"Sevier County, UT",UT,5,True,True,True,True
+UT1,49043,7,5,Summit County,"Summit County, UT",UT,5,True,True,True,True
+UT1,49045,382,5,Tooele County,"Tooele County, UT",UT,5,True,True,True,True
+UT1,49047,2,2,Uintah County,"Uintah County, UT",UT,2,True,True,False,True
+UT1,49049,144,5,Utah County,"Utah County, UT",UT,5,True,True,True,True
+UT1,49051,4,4,Wasatch County,"Wasatch County, UT",UT,4,True,True,False,True
+UT1,49053,28,5,Washington County,"Washington County, UT",UT,5,True,True,True,True
+UT1,49055,114,5,Wayne County,"Wayne County, UT",UT,5,True,True,True,True
+UT1,49057,30,5,Weber County,"Weber County, UT",UT,5,True,True,True,True
+UT1,56023,3,3,Lincoln County,"Lincoln County, WY",WY,3,True,True,False,True
+UT1,56041,23,5,Uinta County,"Uinta County, WY",WY,5,True,True,True,True
+UT2,08045,9,5,Garfield County,"Garfield County, CO",CO,5,True,True,True,True
+UT2,08077,8,5,Mesa County,"Mesa County, CO",CO,5,True,True,True,True
+UT2,08103,4,4,Rio Blanco County,"Rio Blanco County, CO",CO,4,True,True,False,True
+UT2,49015,2,2,Emery County,"Emery County, UT",UT,2,True,True,False,True
+UT2,49019,76,5,Grand County,"Grand County, UT",UT,5,True,True,True,True
+UT2,49027,48,5,Millard County,"Millard County, UT",UT,5,True,True,True,True
+UT2,49029,8,5,Morgan County,"Morgan County, UT",UT,5,True,True,True,True
+UT2,49033,43,5,Rich County,"Rich County, UT",UT,5,True,True,True,True
+UT2,49035,2,2,Salt Lake County,"Salt Lake County, UT",UT,2,True,True,False,True
+UT2,49043,115,5,Summit County,"Summit County, UT",UT,5,True,True,True,True
+UT2,49047,47,5,Uintah County,"Uintah County, UT",UT,5,True,True,True,True
+UT2,49051,34,5,Wasatch County,"Wasatch County, UT",UT,5,True,True,True,True
+UT2,49057,3,3,Weber County,"Weber County, UT",UT,3,True,True,False,True
+UT2,56041,73,5,Uinta County,"Uinta County, WY",WY,5,True,True,True,True
+WA1,53009,114,5,Clallam County,"Clallam County, WA",WA,5,True,True,True,True
+WA1,53015,49,5,Cowlitz County,"Cowlitz County, WA",WA,5,True,True,True,True
+WA1,53027,260,5,Grays Harbor County,"Grays Harbor County, WA",WA,5,True,True,True,True
+WA1,53029,34,5,Island County,"Island County, WA",WA,5,True,True,True,True
+WA1,53031,112,5,Jefferson County,"Jefferson County, WA",WA,5,True,True,True,True
+WA1,53033,84,5,King County,"King County, WA",WA,5,True,True,True,True
+WA1,53035,42,5,Kitsap County,"Kitsap County, WA",WA,5,True,True,True,True
+WA1,53041,216,5,Lewis County,"Lewis County, WA",WA,5,True,True,True,True
+WA1,53045,100,5,Mason County,"Mason County, WA",WA,5,True,True,True,True
+WA1,53049,88,5,Pacific County,"Pacific County, WA",WA,5,True,True,True,True
+WA1,53053,114,5,Pierce County,"Pierce County, WA",WA,5,True,True,True,True
+WA1,53055,9,5,San Juan County,"San Juan County, WA",WA,5,True,True,True,True
+WA1,53057,131,5,Skagit County,"Skagit County, WA",WA,5,True,True,True,True
+WA1,53061,134,5,Snohomish County,"Snohomish County, WA",WA,5,True,True,True,True
+WA1,53067,90,5,Thurston County,"Thurston County, WA",WA,5,True,True,True,True
+WA1,53073,92,5,Whatcom County,"Whatcom County, WA",WA,5,True,True,True,True
+WA2,16049,18,5,Idaho County,"Idaho County, ID",ID,5,True,True,True,True
+WA2,16061,1,1,Lewis County,"Lewis County, ID",ID,1,True,True,False,True
+WA2,16069,3,3,Nez Perce County,"Nez Perce County, ID",ID,3,True,True,False,True
+WA2,41009,10,5,Columbia County,"Columbia County, OR",OR,5,True,True,True,True
+WA2,41013,264,5,Crook County,"Crook County, OR",OR,5,True,True,True,True
+WA2,41017,121,5,Deschutes County,"Deschutes County, OR",OR,5,True,True,True,True
+WA2,41021,165,5,Gilliam County,"Gilliam County, OR",OR,5,True,True,True,True
+WA2,41023,55,5,Grant County,"Grant County, OR",OR,5,True,True,True,True
+WA2,41031,179,5,Jefferson County,"Jefferson County, OR",OR,5,True,True,True,True
+WA2,41049,231,5,Morrow County,"Morrow County, OR",OR,5,True,True,True,True
+WA2,41055,132,5,Sherman County,"Sherman County, OR",OR,5,True,True,True,True
+WA2,41059,401,5,Umatilla County,"Umatilla County, OR",OR,5,True,True,True,True
+WA2,41061,1,1,Union County,"Union County, OR",OR,1,True,True,False,True
+WA2,41063,15,5,Wallowa County,"Wallowa County, OR",OR,5,True,True,True,True
+WA2,41065,295,5,Wasco County,"Wasco County, OR",OR,5,True,True,True,True
+WA2,41069,209,5,Wheeler County,"Wheeler County, OR",OR,5,True,True,True,True
+WA2,53001,45,5,Adams County,"Adams County, WA",WA,5,True,True,True,True
+WA2,53005,269,5,Benton County,"Benton County, WA",WA,5,True,True,True,True
+WA2,53009,34,5,Clallam County,"Clallam County, WA",WA,5,True,True,True,True
+WA2,53013,18,5,Columbia County,"Columbia County, WA",WA,5,True,True,True,True
+WA2,53015,15,5,Cowlitz County,"Cowlitz County, WA",WA,5,True,True,True,True
+WA2,53021,184,5,Franklin County,"Franklin County, WA",WA,5,True,True,True,True
+WA2,53025,79,5,Grant County,"Grant County, WA",WA,5,True,True,True,True
+WA2,53027,12,5,Grays Harbor County,"Grays Harbor County, WA",WA,5,True,True,True,True
+WA2,53037,123,5,Kittitas County,"Kittitas County, WA",WA,5,True,True,True,True
+WA2,53039,296,5,Klickitat County,"Klickitat County, WA",WA,5,True,True,True,True
+WA2,53041,10,5,Lewis County,"Lewis County, WA",WA,5,True,True,True,True
+WA2,53045,15,5,Mason County,"Mason County, WA",WA,5,True,True,True,True
+WA2,53059,7,5,Skamania County,"Skamania County, WA",WA,5,True,True,True,True
+WA2,53067,3,3,Thurston County,"Thurston County, WA",WA,3,True,True,False,True
+WA2,53071,199,5,Walla Walla County,"Walla Walla County, WA",WA,5,True,True,True,True
+WA2,53077,522,5,Yakima County,"Yakima County, WA",WA,5,True,True,True,True
+WA3,41021,42,5,Gilliam County,"Gilliam County, OR",OR,5,True,True,True,True
+WA3,41023,161,5,Grant County,"Grant County, OR",OR,5,True,True,True,True
+WA3,41049,67,5,Morrow County,"Morrow County, OR",OR,5,True,True,True,True
+WA3,41059,8,5,Umatilla County,"Umatilla County, OR",OR,5,True,True,True,True
+WA3,41061,17,5,Union County,"Union County, OR",OR,5,True,True,True,True
+WA3,41063,155,5,Wallowa County,"Wallowa County, OR",OR,5,True,True,True,True
+WA3,41069,35,5,Wheeler County,"Wheeler County, OR",OR,5,True,True,True,True
+WA3,53001,89,5,Adams County,"Adams County, WA",WA,5,True,True,True,True
+WA3,53003,59,5,Asotin County,"Asotin County, WA",WA,5,True,True,True,True
+WA3,53007,44,5,Chelan County,"Chelan County, WA",WA,5,True,True,True,True
+WA3,53017,310,5,Douglas County,"Douglas County, WA",WA,5,True,True,True,True
+WA3,53019,43,5,Ferry County,"Ferry County, WA",WA,5,True,True,True,True
+WA3,53023,2,2,Garfield County,"Garfield County, WA",WA,2,True,True,False,True
+WA3,53025,392,5,Grant County,"Grant County, WA",WA,5,True,True,True,True
+WA3,53037,31,5,Kittitas County,"Kittitas County, WA",WA,5,True,True,True,True
+WA3,53043,51,5,Lincoln County,"Lincoln County, WA",WA,5,True,True,True,True
+WA3,53047,426,5,Okanogan County,"Okanogan County, WA",WA,5,True,True,True,True
+WA4,16009,68,5,Benewah County,"Benewah County, ID",ID,5,True,True,True,True
+WA4,16035,7,5,Clearwater County,"Clearwater County, ID",ID,5,True,True,True,True
+WA4,16049,28,5,Idaho County,"Idaho County, ID",ID,5,True,True,True,True
+WA4,16055,20,5,Kootenai County,"Kootenai County, ID",ID,5,True,True,True,True
+WA4,16057,19,5,Latah County,"Latah County, ID",ID,5,True,True,True,True
+WA4,16069,3,3,Nez Perce County,"Nez Perce County, ID",ID,3,True,True,False,True
+WA4,16079,5,5,Shoshone County,"Shoshone County, ID",ID,5,True,True,True,True
+WA4,30053,19,5,Lincoln County,"Lincoln County, MT",MT,5,True,True,True,True
+WA4,53001,212,5,Adams County,"Adams County, WA",WA,5,True,True,True,True
+WA4,53003,2,2,Asotin County,"Asotin County, WA",WA,2,True,True,False,True
+WA4,53005,8,5,Benton County,"Benton County, WA",WA,5,True,True,True,True
+WA4,53013,77,5,Columbia County,"Columbia County, WA",WA,5,True,True,True,True
+WA4,53019,132,5,Ferry County,"Ferry County, WA",WA,5,True,True,True,True
+WA4,53021,35,5,Franklin County,"Franklin County, WA",WA,5,True,True,True,True
+WA4,53023,78,5,Garfield County,"Garfield County, WA",WA,5,True,True,True,True
+WA4,53043,359,5,Lincoln County,"Lincoln County, WA",WA,5,True,True,True,True
+WA4,53051,38,5,Pend Oreille County,"Pend Oreille County, WA",WA,5,True,True,True,True
+WA4,53063,262,5,Spokane County,"Spokane County, WA",WA,5,True,True,True,True
+WA4,53065,311,5,Stevens County,"Stevens County, WA",WA,5,True,True,True,True
+WA4,53071,18,5,Walla Walla County,"Walla Walla County, WA",WA,5,True,True,True,True
+WA4,53075,365,5,Whitman County,"Whitman County, WA",WA,5,True,True,True,True
+WY1,08045,132,5,Garfield County,"Garfield County, CO",CO,5,True,True,True,True
+WY1,08077,11,5,Mesa County,"Mesa County, CO",CO,5,True,True,True,True
+WY1,08081,324,5,Moffat County,"Moffat County, CO",CO,5,True,True,True,True
+WY1,08103,361,5,Rio Blanco County,"Rio Blanco County, CO",CO,5,True,True,True,True
+WY1,16007,1,1,Bear Lake County,"Bear Lake County, ID",ID,1,True,True,False,True
+WY1,16081,3,3,Teton County,"Teton County, ID",ID,3,True,True,False,True
+WY1,49005,8,5,Cache County,"Cache County, UT",UT,5,True,True,True,True
+WY1,49007,29,5,Carbon County,"Carbon County, UT",UT,5,True,True,True,True
+WY1,49009,32,5,Daggett County,"Daggett County, UT",UT,5,True,True,True,True
+WY1,49013,287,5,Duchesne County,"Duchesne County, UT",UT,5,True,True,True,True
+WY1,49015,192,5,Emery County,"Emery County, UT",UT,5,True,True,True,True
+WY1,49017,9,5,Garfield County,"Garfield County, UT",UT,5,True,True,True,True
+WY1,49019,133,5,Grand County,"Grand County, UT",UT,5,True,True,True,True
+WY1,49033,47,5,Rich County,"Rich County, UT",UT,5,True,True,True,True
+WY1,49037,3,3,San Juan County,"San Juan County, UT",UT,3,True,True,False,True
+WY1,49043,9,5,Summit County,"Summit County, UT",UT,5,True,True,True,True
+WY1,49047,478,5,Uintah County,"Uintah County, UT",UT,5,True,True,True,True
+WY1,49051,20,5,Wasatch County,"Wasatch County, UT",UT,5,True,True,True,True
+WY1,49055,109,5,Wayne County,"Wayne County, UT",UT,5,True,True,True,True
+WY1,56007,619,5,Carbon County,"Carbon County, WY",WY,5,True,True,True,True
+WY1,56013,804,5,Fremont County,"Fremont County, WY",WY,5,True,True,True,True
+WY1,56017,7,5,Hot Springs County,"Hot Springs County, WY",WY,5,True,True,True,True
+WY1,56023,399,5,Lincoln County,"Lincoln County, WY",WY,5,True,True,True,True
+WY1,56025,26,5,Natrona County,"Natrona County, WY",WY,5,True,True,True,True
+WY1,56035,522,5,Sublette County,"Sublette County, WY",WY,5,True,True,True,True
+WY1,56037,1608,5,Sweetwater County,"Sweetwater County, WY",WY,5,True,True,True,True
+WY1,56039,18,5,Teton County,"Teton County, WY",WY,5,True,True,True,True
+WY1,56041,267,5,Uinta County,"Uinta County, WY",WY,5,True,True,True,True
+WY2,30003,390,5,Big Horn County,"Big Horn County, MT",MT,5,True,True,True,True
+WY2,30075,44,5,Powder River County,"Powder River County, MT",MT,5,True,True,True,True
+WY2,30087,102,5,Rosebud County,"Rosebud County, MT",MT,5,True,True,True,True
+WY2,56003,50,5,Big Horn County,"Big Horn County, WY",WY,5,True,True,True,True
+WY2,56005,2,2,Campbell County,"Campbell County, WY",WY,2,True,True,False,True
+WY2,56009,16,5,Converse County,"Converse County, WY",WY,5,True,True,True,True
+WY2,56017,25,5,Hot Springs County,"Hot Springs County, WY",WY,5,True,True,True,True
+WY2,56019,302,5,Johnson County,"Johnson County, WY",WY,5,True,True,True,True
+WY2,56025,298,5,Natrona County,"Natrona County, WY",WY,5,True,True,True,True
+WY2,56033,303,5,Sheridan County,"Sheridan County, WY",WY,5,True,True,True,True
+WY2,56043,249,5,Washakie County,"Washakie County, WY",WY,5,True,True,True,True
+WY3,30011,164,5,Carter County,"Carter County, MT",MT,5,True,True,True,True
+WY3,30075,170,5,Powder River County,"Powder River County, MT",MT,5,True,True,True,True
+WY3,46033,8,5,Custer County,"Custer County, SD",SD,5,True,True,True,True
+WY3,46063,36,5,Harding County,"Harding County, SD",SD,5,True,True,True,True
+WY3,46081,1,1,Lawrence County,"Lawrence County, SD",SD,1,True,True,False,True
+WY3,46103,3,3,Pennington County,"Pennington County, SD",SD,3,True,True,False,True
+WY3,56001,15,5,Albany County,"Albany County, WY",WY,5,True,True,True,True
+WY3,56005,797,5,Campbell County,"Campbell County, WY",WY,5,True,True,True,True
+WY3,56007,189,5,Carbon County,"Carbon County, WY",WY,5,True,True,True,True
+WY3,56009,527,5,Converse County,"Converse County, WY",WY,5,True,True,True,True
+WY3,56011,395,5,Crook County,"Crook County, WY",WY,5,True,True,True,True
+WY3,56013,242,5,Fremont County,"Fremont County, WY",WY,5,True,True,True,True
+WY3,56017,211,5,Hot Springs County,"Hot Springs County, WY",WY,5,True,True,True,True
+WY3,56019,281,5,Johnson County,"Johnson County, WY",WY,5,True,True,True,True
+WY3,56025,401,5,Natrona County,"Natrona County, WY",WY,5,True,True,True,True
+WY3,56027,137,5,Niobrara County,"Niobrara County, WY",WY,5,True,True,True,True
+WY3,56029,3,3,Park County,"Park County, WY",WY,3,True,True,False,True
+WY3,56033,21,5,Sheridan County,"Sheridan County, WY",WY,5,True,True,True,True
+WY3,56043,37,5,Washakie County,"Washakie County, WY",WY,5,True,True,True,True
+WY3,56045,393,5,Weston County,"Weston County, WY",WY,5,True,True,True,True
+WY4,08049,30,5,Grand County,"Grand County, CO",CO,5,True,True,True,True
+WY4,08057,186,5,Jackson County,"Jackson County, CO",CO,5,True,True,True,True
+WY4,08063,210,5,Kit Carson County,"Kit Carson County, CO",CO,5,True,True,True,True
+WY4,08069,168,5,Larimer County,"Larimer County, CO",CO,5,True,True,True,True
+WY4,08073,41,5,Lincoln County,"Lincoln County, CO",CO,5,True,True,True,True
+WY4,08075,198,5,Logan County,"Logan County, CO",CO,5,True,True,True,True
+WY4,08081,22,5,Moffat County,"Moffat County, CO",CO,5,True,True,True,True
+WY4,08095,6,5,Phillips County,"Phillips County, CO",CO,5,True,True,True,True
+WY4,08107,78,5,Routt County,"Routt County, CO",CO,5,True,True,True,True
+WY4,08117,5,5,Summit County,"Summit County, CO",CO,5,True,True,True,True
+WY4,08121,50,5,Washington County,"Washington County, CO",CO,5,True,True,True,True
+WY4,08123,372,5,Weld County,"Weld County, CO",CO,5,True,True,True,True
+WY4,08125,75,5,Yuma County,"Yuma County, CO",CO,5,True,True,True,True
+WY4,56001,594,5,Albany County,"Albany County, WY",WY,5,True,True,True,True
+WY4,56007,325,5,Carbon County,"Carbon County, WY",WY,5,True,True,True,True
+WY4,56015,32,5,Goshen County,"Goshen County, WY",WY,5,True,True,True,True
+WY4,56021,471,5,Laramie County,"Laramie County, WY",WY,5,True,True,True,True
+WY4,56025,121,5,Natrona County,"Natrona County, WY",WY,5,True,True,True,True
+WY4,56031,110,5,Platte County,"Platte County, WY",WY,5,True,True,True,True

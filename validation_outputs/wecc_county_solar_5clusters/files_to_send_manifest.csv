@@ -1,0 +1,13 @@
+file,rows,description
+gen_info_wecc_county_solar_5clusters_with_county.csv,3514.0,Generated gen_info rows with county_group and readable county name columns added.
+county_region_5cluster_validation.csv,739.0,Expected-vs-actual county-region cluster validation table.
+missing_county_name_rows.csv,5.0,Rows that were missing county names before the manual display-name patch.
+cluster_count_mismatches.csv,2.0,"County-region groups where actual cluster count did not match min(candidate rows, 5)."
+cluster_mismatch_candidate_rows.csv,8.0,Original candidate solar rows for the mismatch county-region groups.
+cluster_mismatch_actual_gen_info_rows.csv,6.0,Generated gen_info rows for the mismatch county-region groups.
+capacity_threshold_summary.csv,8.0,"Summary of how different gen_capacity_limit_mw thresholds affect retained rows, county-region groups, and counties."
+low_capacity_utilitypv_rows.csv,3514.0,Generated UtilityPV rows with low gen_capacity_limit_mw values.
+resources_wecc_county_solar_5clusters.yml,,resources.yml file used for the 5-cluster county-solar run.
+threshold_setting_search_matches.csv,86.0,Search results for existing minimum-capacity or threshold-related settings in resources/settings files.
+low_capacity_utilitypv_rows_below_5mw.csv,11.0,Generated UtilityPV rows with gen_capacity_limit_mw below 5 MW.
+low_capacity_utilitypv_rows_below_10mw.csv,33.0,Generated UtilityPV rows with gen_capacity_limit_mw below 10 MW.
