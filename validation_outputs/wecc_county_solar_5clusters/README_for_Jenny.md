@@ -14,6 +14,8 @@
 - `cluster_mismatch_actual_gen_info_rows.csv` — 6 rows: Generated gen_info rows for the mismatch county-region groups.
 - `capacity_threshold_summary.csv` — 8 rows: Summary of how different gen_capacity_limit_mw thresholds affect retained rows, county-region groups, and counties.
 - `low_capacity_utilitypv_rows.csv` — 3,514 rows: Generated UtilityPV rows with low gen_capacity_limit_mw values.
+- `multi_region_county_region_capacity_shares.csv` — 544 rows: Counties that appear in multiple model regions, with each region's share of county capacity_mw and candidate rows.
+- `all_county_region_capacity_shares.csv` — 739 rows: All county-region pairs with capacity share and row share within each county.
 - `resources_wecc_county_solar_5clusters.yml`: resources.yml file used for the 5-cluster county-solar run.
 
 ## Files not written automatically

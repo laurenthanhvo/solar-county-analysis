@@ -7,6 +7,8 @@ cluster_mismatch_candidate_rows.csv,8.0,Original candidate solar rows for the mi
 cluster_mismatch_actual_gen_info_rows.csv,6.0,Generated gen_info rows for the mismatch county-region groups.
 capacity_threshold_summary.csv,8.0,"Summary of how different gen_capacity_limit_mw thresholds affect retained rows, county-region groups, and counties."
 low_capacity_utilitypv_rows.csv,3514.0,Generated UtilityPV rows with low gen_capacity_limit_mw values.
+multi_region_county_region_capacity_shares.csv,544.0,"Counties that appear in multiple model regions, with each region's share of county capacity_mw and candidate rows."
+all_county_region_capacity_shares.csv,739.0,All county-region pairs with capacity share and row share within each county.
 resources_wecc_county_solar_5clusters.yml,,resources.yml file used for the 5-cluster county-solar run.
 threshold_setting_search_matches.csv,86.0,Search results for existing minimum-capacity or threshold-related settings in resources/settings files.
 low_capacity_utilitypv_rows_below_5mw.csv,11.0,Generated UtilityPV rows with gen_capacity_limit_mw below 5 MW.
