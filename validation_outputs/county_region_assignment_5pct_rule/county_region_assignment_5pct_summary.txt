@@ -1,0 +1,40 @@
+COUNTY-TO-REGION ASSIGNMENT USING THE 5-PERCENTAGE-POINT RULE
+
+Input
+-----
+Input county-region rows: 739
+Original unique counties: 419
+Original county-region pairs: 739
+
+Assignment rule
+---------------
+- Keep the first-place model region for every county.
+- Keep the second-place region when its capacity share is within
+  5.0 percentage points of first place.
+- Exclude third-place and lower regions.
+- Use each retained county-region pair's actual capacity_mw as
+  assigned_buildable_mw.
+
+Results
+-------
+Counties assigned to one region: 410
+Counties assigned to two regions: 9
+Total retained county-region assignments: 428
+All counties represented: True
+
+Capacity
+--------
+Original candidate capacity: 11,715,680.05 MW
+Retained candidate capacity: 9,957,637.09 MW
+Retained capacity percentage: 84.99%
+Excluded candidate capacity: 1,758,042.96 MW
+Excluded capacity percentage: 15.01%
+
+Quality assurance
+-----------------
+QA checks passed: 7 of 7
+All QA checks passed: True
+
+Main output
+-----------
+/Users/laurenvo/Documents/Github/solar-county-analysis/validation_outputs/county_region_assignment_5pct_rule/county_region_assignments_5pct_rule.csv

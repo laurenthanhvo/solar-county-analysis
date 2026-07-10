@@ -1,0 +1,8 @@
+check,passed,details
+Every county is represented,True,419 retained of 419 original counties
+Each county has one or two assignments,True,"{1: 410, 2: 9}"
+No rank 3+ region is retained,True,Maximum retained rank = 2
+All retained second regions satisfy 5-point rule,True,9 retained second-place rows
+Assigned buildable MW equals county-region MW,True,assigned_buildable_mw uses each county-region pair's actual capacity_mw
+Retained county capacity does not exceed total,True,Maximum excess = 0.00000000 MW
+No duplicate county-region assignments,True,0 duplicates
